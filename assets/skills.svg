@@ -1,524 +1,76 @@
-<svg xmlns="http://www.w3.org/2000/svg"
-     width="900"
-     height="330"
-     viewBox="0 0 900 330">
+<!-- ================= TECH STACK ================= -->
 
-<defs>
+<div align="center">
 
-  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-    <stop offset="0%" stop-color="#03070b"/>
-    <stop offset="100%" stop-color="#08151c"/>
-  </linearGradient>
+<h2>⚡ TECH STACK</h2>
 
-  <filter id="glow">
-    <feGaussianBlur stdDeviation="3" result="blur"/>
-    <feMerge>
-      <feMergeNode in="blur"/>
-      <feMergeNode in="SourceGraphic"/>
-    </feMerge>
-  </filter>
+<br>
 
-  <style>
-    .title {
-      font-family: monospace;
-      font-size: 12px;
-      font-weight: bold;
-      letter-spacing: 4px;
-      fill: #00e5ff;
-    }
+<!-- Row 1 -->
 
-    .label {
-      font-family: Arial, sans-serif;
-      font-size: 11px;
-      font-weight: 600;
-      fill: #d9faff;
-    }
+<a href="#">
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" height="38"/>
+</a>
 
-    .box {
-      fill: #071118;
-      stroke: #12313a;
-      stroke-width: 1;
-    }
+<a href="#">
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" height="38"/>
+</a>
 
-    .box:hover {
-      stroke: #00e5ff;
-    }
+<a href="#">
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" height="38"/>
+</a>
 
-    .icon {
-      fill: none;
-      stroke: #00e5ff;
-      stroke-width: 2;
-      stroke-linecap: round;
-      stroke-linejoin: round;
-    }
-  </style>
+<a href="#">
+<img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" height="38"/>
+</a>
 
-</defs>
+<br><br>
 
+<!-- Row 2 -->
 
-<!-- BACKGROUND -->
+<a href="#">
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" height="38"/>
+</a>
 
-<rect
-  width="900"
-  height="330"
-  rx="18"
-  fill="url(#bg)"
-/>
+<a href="#">
+<img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black" height="38"/>
+</a>
 
+<a href="#">
+<img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" height="38"/>
+</a>
 
-<!-- OUTER FRAME -->
+<br><br>
 
-<rect
-  x="2"
-  y="2"
-  width="896"
-  height="326"
-  rx="17"
-  fill="none"
-  stroke="#00e5ff"
-  stroke-width="2"
-  opacity=".8"
-/>
+<!-- Row 3 -->
 
+<a href="#">
+<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" height="38"/>
+</a>
 
-<!-- CORNER MARKERS -->
+<a href="#">
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" height="38"/>
+</a>
 
-<path d="M18 48V18H48"
-      stroke="#00e5ff"
-      stroke-width="3"
-      fill="none"/>
+<a href="#">
+<img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" height="38"/>
+</a>
 
-<path d="M852 18H882V48"
-      stroke="#00e5ff"
-      stroke-width="3"
-      fill="none"/>
+<a href="#">
+<img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" height="38"/>
+</a>
 
-<path d="M18 282V312H48"
-      stroke="#00e5ff"
-      stroke-width="3"
-      fill="none"/>
+<br><br>
 
-<path d="M852 312H882V282"
-      stroke="#00e5ff"
-      stroke-width="3"
-      fill="none"/>
+<!-- Row 4 -->
 
+<a href="#">
+<img src="https://img.shields.io/badge/Web%20Development-00E5FF?style=for-the-badge&logo=googlechrome&logoColor=black" height="38"/>
+</a>
 
-<!-- HEADER -->
+<a href="#">
+<img src="https://img.shields.io/badge/App%20Development-7F52FF?style=for-the-badge&logo=android&logoColor=white" height="38"/>
+</a>
 
-<text
-  x="35"
-  y="38"
-  class="title">
-  TECH ARSENAL // SKILLS
-</text>
-
-<text
-  x="865"
-  y="38"
-  text-anchor="end"
-  font-family="monospace"
-  font-size="8"
-  fill="#5d7782"
-  letter-spacing="2">
-  ONLINE
-</text>
-
-
-<!-- ================= ROW 1 ================= -->
-
-
-<!-- HTML -->
-
-<g transform="translate(35 65)">
-
-  <rect width="125" height="105" rx="12" class="box"/>
-
-  <polygon
-    points="47,18 78,18 74,62 62,72 50,62"
-    fill="#00e5ff"
-    opacity=".9"/>
-
-  <text
-    x="62"
-    y="51"
-    text-anchor="middle"
-    font-family="Arial"
-    font-size="20"
-    font-weight="bold"
-    fill="#031015">
-    5
-  </text>
-
-  <text x="62" y="91"
-        text-anchor="middle"
-        class="label">
-    HTML5
-  </text>
-
-</g>
-
-
-<!-- CSS -->
-
-<g transform="translate(175 65)">
-
-  <rect width="125" height="105" rx="12" class="box"/>
-
-  <polygon
-    points="47,18 78,18 74,62 62,72 50,62"
-    fill="#00bfff"/>
-
-  <text
-    x="62"
-    y="51"
-    text-anchor="middle"
-    font-family="Arial"
-    font-size="16"
-    font-weight="bold"
-    fill="#031015">
-    #
-  </text>
-
-  <text x="62" y="91"
-        text-anchor="middle"
-        class="label">
-    CSS3
-  </text>
-
-</g>
-
-
-<!-- JavaScript -->
-
-<g transform="translate(315 65)">
-
-  <rect width="125" height="105" rx="12" class="box"/>
-
-  <rect
-    x="46"
-    y="18"
-    width="34"
-    height="45"
-    fill="#f7df1e"/>
-
-  <text
-    x="74"
-    y="57"
-    text-anchor="end"
-    font-family="Arial"
-    font-size="14"
-    font-weight="bold"
-    fill="#111">
-    JS
-  </text>
-
-  <text x="62" y="91"
-        text-anchor="middle"
-        class="label">
-    JavaScript
-  </text>
-
-</g>
-
-
-<!-- React -->
-
-<g transform="translate(455 65)">
-
-  <rect width="125" height="105" rx="12" class="box"/>
-
-  <ellipse
-    cx="62"
-    cy="40"
-    rx="32"
-    ry="13"
-    class="icon"/>
-
-  <ellipse
-    cx="62"
-    cy="40"
-    rx="32"
-    ry="13"
-    class="icon"
-    transform="rotate(60 62 40)"/>
-
-  <ellipse
-    cx="62"
-    cy="40"
-    rx="32"
-    ry="13"
-    class="icon"
-    transform="rotate(120 62 40)"/>
-
-  <circle
-    cx="62"
-    cy="40"
-    r="5"
-    fill="#00e5ff"
-    filter="url(#glow)"/>
-
-  <text x="62" y="91"
-        text-anchor="middle"
-        class="label">
-    React
-  </text>
-
-</g>
-
-
-<!-- Python -->
-
-<g transform="translate(595 65)">
-
-  <rect width="125" height="105" rx="12" class="box"/>
-
-  <path
-    d="M62 18
-       C45 18 45 28 45 34
-       V45
-       H68
-       C76 45 80 40 80 32
-       V27
-       C80 20 73 18 62 18Z"
-    fill="#00a8ff"/>
-
-  <path
-    d="M62 63
-       C79 63 79 53 79 47
-       V36
-       H56
-       C48 36 44 41 44 49
-       V54
-       C44 61 51 63 62 63Z"
-    fill="#00e5ff"/>
-
-  <circle cx="56" cy="28" r="2" fill="#031015"/>
-  <circle cx="68" cy="53" r="2" fill="#031015"/>
-
-  <text x="62" y="91"
-        text-anchor="middle"
-        class="label">
-    Python
-  </text>
-
-</g>
-
-
-<!-- C -->
-
-<g transform="translate(735 65)">
-
-  <rect width="125" height="105" rx="12" class="box"/>
-
-  <text
-    x="62"
-    y="58"
-    text-anchor="middle"
-    font-family="Arial"
-    font-size="42"
-    font-weight="bold"
-    fill="#00e5ff"
-    filter="url(#glow)">
-    C
-  </text>
-
-  <text x="62" y="91"
-        text-anchor="middle"
-        class="label">
-    C
-  </text>
-
-</g>
-
-
-<!-- ================= ROW 2 ================= -->
-
-
-<!-- C++ -->
-
-<g transform="translate(35 190)">
-
-  <rect width="125" height="105" rx="12" class="box"/>
-
-  <text
-    x="62"
-    y="57"
-    text-anchor="middle"
-    font-family="Arial"
-    font-size="35"
-    font-weight="bold"
-    fill="#00e5ff">
-    C++
-  </text>
-
-  <text x="62" y="91"
-        text-anchor="middle"
-        class="label">
-    C++
-  </text>
-
-</g>
-
-
-<!-- Git -->
-
-<g transform="translate(175 190)">
-
-  <rect width="125" height="105" rx="12" class="box"/>
-
-  <path
-    d="M42 48
-       L62 28
-       L82 48
-       L62 68
-       Z"
-    fill="none"
-    stroke="#00e5ff"
-    stroke-width="4"
-    transform="rotate(0 62 48)"/>
-
-  <circle cx="62" cy="38" r="4" fill="#00e5ff"/>
-  <circle cx="52" cy="48" r="4" fill="#00e5ff"/>
-  <circle cx="62" cy="58" r="4" fill="#00e5ff"/>
-
-  <text x="62" y="91"
-        text-anchor="middle"
-        class="label">
-    Git
-  </text>
-
-</g>
-
-
-<!-- GitHub -->
-
-<g transform="translate(315 190)">
-
-  <rect width="125" height="105" rx="12" class="box"/>
-
-  <circle
-    cx="62"
-    cy="43"
-    r="25"
-    fill="none"
-    stroke="#00e5ff"
-    stroke-width="3"/>
-
-  <path
-    d="M48 57
-       C48 48 53 45 62 45
-       C71 45 76 48 76 57
-       M53 39
-       L57 44
-       M71 39
-       L67 44"
-    class="icon"/>
-
-  <text x="62" y="91"
-        text-anchor="middle"
-        class="label">
-    GitHub
-  </text>
-
-</g>
-
-
-<!-- Linux -->
-
-<g transform="translate(455 190)">
-
-  <rect width="125" height="105" rx="12" class="box"/>
-
-  <circle
-    cx="62"
-    cy="43"
-    r="25"
-    fill="none"
-    stroke="#00e5ff"
-    stroke-width="2"/>
-
-  <path
-    d="M50 51
-       Q53 36 62 34
-       Q71 36 74 51
-       L69 57
-       L55 57Z"
-    fill="#00e5ff"/>
-
-  <circle cx="57" cy="43" r="2" fill="#031015"/>
-  <circle cx="67" cy="43" r="2" fill="#031015"/>
-
-  <text x="62" y="91"
-        text-anchor="middle"
-        class="label">
-    Linux
-  </text>
-
-</g>
-
-
-<!-- VS Code -->
-
-<g transform="translate(595 190)">
-
-  <rect width="125" height="105" rx="12" class="box"/>
-
-  <path
-    d="M42 36 L55 25 L78 34 L78 58 L55 67 L42 56 L52 46 Z"
-    fill="none"
-    stroke="#00e5ff"
-    stroke-width="3"/>
-
-  <path
-    d="M52 46 L70 34
-       M52 46 L70 58"
-    class="icon"/>
-
-  <text x="62" y="91"
-        text-anchor="middle"
-        class="label">
-    VS Code
-  </text>
-
-</g>
-
-
-<!-- AI -->
-
-<g transform="translate(735 190)">
-
-  <rect width="125" height="105" rx="12" class="box"/>
-
-  <rect
-    x="42"
-    y="24"
-    width="40"
-    height="40"
-    rx="8"
-    fill="none"
-    stroke="#00e5ff"
-    stroke-width="3"/>
-
-  <path
-    d="M50 44 L58 52 L73 35"
-    fill="none"
-    stroke="#00e5ff"
-    stroke-width="4"
-    stroke-linecap="round"
-    stroke-linejoin="round"
-    filter="url(#glow)"/>
-
-  <path d="M62 16V24 M62 64V72 M34 44H42 M82 44H90"
-        stroke="#00e5ff"
-        stroke-width="2"/>
-
-  <text x="62" y="91"
-        text-anchor="middle"
-        class="label">
-    AI TOOLS
-  </text>
-
-</g>
-
-</svg>
+<a href="#">
+<img src="https://img.shields.io/badge/AI%20Tools-00E5FF?style=for-the-badge&logo=openai&logoColor=
