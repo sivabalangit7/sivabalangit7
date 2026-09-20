@@ -11,6 +11,14 @@
 </div>
 <h2>🚀 PROJECT DATABASE</h2>
 
+<div align="center">
+
+<img src="./assets/projects.svg"
+     width="100%"
+     alt="Project Database">
+
+</div>>
+
 
 <div align="center">
 
