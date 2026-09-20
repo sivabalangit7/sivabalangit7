@@ -18,5 +18,8 @@
      alt="Projject Database">
 
 </div>
+<div align="center">
+  <img src="./assets/skills.svg" width="100%" alt="Skills - Tech Arsenal">
+</div>
 
 
