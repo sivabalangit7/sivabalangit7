@@ -1,0 +1,976 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 860 230"
+     width="860"
+     height="230">
+
+  <defs>
+
+    <!-- VICE CITY NIGHT -->
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#080914"/>
+      <stop offset="48%" stop-color="#17132D"/>
+      <stop offset="100%" stop-color="#321344"/>
+    </linearGradient>
+
+    <!-- CARD GRADIENTS -->
+    <linearGradient id="card1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#092F42"/>
+      <stop offset="100%" stop-color="#081722"/>
+    </linearGradient>
+
+    <linearGradient id="card2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#382050"/>
+      <stop offset="100%" stop-color="#170E27"/>
+    </linearGradient>
+
+    <linearGradient id="card3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#123C36"/>
+      <stop offset="100%" stop-color="#0A211E"/>
+    </linearGradient>
+
+    <linearGradient id="card4" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#48202F"/>
+      <stop offset="100%" stop-color="#220D19"/>
+    </linearGradient>
+
+    <!-- NEON -->
+    <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00E5FF"/>
+      <stop offset="100%" stop-color="#61DAFB"/>
+    </linearGradient>
+
+    <linearGradient id="pink" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FF3CAC"/>
+      <stop offset="100%" stop-color="#FF72D2"/>
+    </linearGradient>
+
+    <!-- GLOWS -->
+    <filter id="glowCyan" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3" result="b"/>
+      <feFlood flood-color="#00E5FF" flood-opacity=".35" result="c"/>
+      <feComposite in="c" in2="b" operator="in" result="g"/>
+      <feMerge>
+        <feMergeNode in="g"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="glowPink" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3" result="b"/>
+      <feFlood flood-color="#FF3CAC" flood-opacity=".35" result="c"/>
+      <feComposite in="c" in2="b" operator="in" result="g"/>
+      <feMerge>
+        <feMergeNode in="g"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <style>
+
+      .card1a {
+        animation: float1 3.4s ease-in-out infinite;
+      }
+
+      .card2a {
+        animation: float2 3.8s ease-in-out infinite .4s;
+      }
+
+      .card3a {
+        animation: float1 3.6s ease-in-out infinite .8s;
+      }
+
+      .card4a {
+        animation: float2 4s ease-in-out infinite 1.2s;
+      }
+
+      .status {
+        animation: blink 2s ease-in-out infinite;
+      }
+
+      .scan {
+        animation: scan 5s linear infinite;
+      }
+
+      @keyframes float1 {
+        0%,100% {
+          transform: translateY(0);
+        }
+
+        50% {
+          transform: translateY(-4px);
+        }
+      }
+
+      @keyframes float2 {
+        0%,100% {
+          transform: translateY(0);
+        }
+
+        50% {
+          transform: translateY(4px);
+        }
+      }
+
+      @keyframes blink {
+        0%,100% {
+          opacity: .45;
+        }
+
+        50% {
+          opacity: 1;
+        }
+      }
+
+      @keyframes scan {
+        from {
+          transform: translateX(-180px);
+          opacity: 0;
+        }
+
+        15% {
+          opacity: .35;
+        }
+
+        50% {
+          opacity: .7;
+        }
+
+        85% {
+          opacity: .35;
+        }
+
+        to {
+          transform: translateX(1000px);
+          opacity: 0;
+        }
+      }
+
+    </style>
+
+  </defs>
+
+
+  <!-- BACKGROUND -->
+
+  <rect
+    width="860"
+    height="230"
+    rx="16"
+    fill="url(#bg)"
+  />
+
+
+  <!-- SUBTLE GRID -->
+
+  <g
+    stroke="#00E5FF"
+    stroke-width=".5"
+    opacity=".055">
+
+    <path d="M20 45 H840"/>
+    <path d="M20 90 H840"/>
+    <path d="M20 135 H840"/>
+    <path d="M20 180 H840"/>
+    <path d="M20 215 H840"/>
+
+    <path d="M70 15 V215"/>
+    <path d="M140 15 V215"/>
+    <path d="M210 15 V215"/>
+    <path d="M280 15 V215"/>
+    <path d="M350 15 V215"/>
+    <path d="M420 15 V215"/>
+    <path d="M490 15 V215"/>
+    <path d="M560 15 V215"/>
+    <path d="M630 15 V215"/>
+    <path d="M700 15 V215"/>
+    <path d="M770 15 V215"/>
+
+  </g>
+
+
+  <!-- NEON BORDER -->
+
+  <rect
+    x="2"
+    y="2"
+    width="856"
+    height="226"
+    rx="15"
+    fill="none"
+    stroke="#FF3CAC"
+    stroke-width="2"
+    filter="url(#glowPink)"
+  />
+
+  <rect
+    x="9"
+    y="9"
+    width="842"
+    height="212"
+    rx="11"
+    fill="none"
+    stroke="#00E5FF"
+    stroke-width=".7"
+    opacity=".4"
+  />
+
+
+  <!-- HEADER -->
+
+  <text
+    x="30"
+    y="27"
+    font-family="'Courier New',monospace"
+    font-size="9"
+    font-weight="700"
+    letter-spacing="3"
+    fill="#00E5FF">
+
+    RKIVLN // PROJECT DATABASE
+
+  </text>
+
+  <text
+    x="830"
+    y="27"
+    text-anchor="end"
+    font-family="'Courier New',monospace"
+    font-size="8"
+    letter-spacing="2"
+    fill="#FF3CAC">
+
+    04 ACTIVE PROJECTS
+
+  </text>
+
+  <text
+    x="430"
+    y="50"
+    text-anchor="middle"
+    font-family="'Courier New',monospace"
+    font-size="12"
+    font-weight="900"
+    letter-spacing="4"
+    fill="#FFFFFF">
+
+    PROJECTS // MISSION SELECT
+
+  </text>
+
+  <line
+    x1="30"
+    y1="59"
+    x2="830"
+    y2="59"
+    stroke="#FFFFFF"
+    stroke-width=".5"
+    opacity=".13"
+  />
+
+
+  <!-- PROJECT 01 -->
+
+  <g
+    transform="translate(20,70)"
+    filter="url(#glowCyan)">
+
+    <g class="card1a">
+
+      <rect
+        width="190"
+        height="125"
+        rx="11"
+        fill="url(#card1)"
+        stroke="#00E5FF"
+        stroke-width="1.3"
+      />
+
+      <rect
+        x="1"
+        y="1"
+        width="188"
+        height="4"
+        rx="3"
+        fill="#00E5FF"
+      />
+
+      <text
+        x="12"
+        y="22"
+        font-family="'Courier New',monospace"
+        font-size="8"
+        font-weight="700"
+        letter-spacing="1.5"
+        fill="#00E5FF">
+
+        MISSION 01
+
+      </text>
+
+      <text
+        x="178"
+        y="22"
+        text-anchor="end"
+        font-family="'Courier New',monospace"
+        font-size="8"
+        fill="#6F8A98">
+
+        AI / ML
+
+      </text>
+
+
+      <!-- ICON -->
+
+      <rect
+        x="12"
+        y="34"
+        width="42"
+        height="42"
+        rx="8"
+        fill="#00E5FF"
+        opacity=".09"
+        stroke="#00E5FF"
+        stroke-width=".7"
+      />
+
+      <text
+        x="33"
+        y="61"
+        text-anchor="middle"
+        font-family="Arial,sans-serif"
+        font-size="23"
+        fill="#00E5FF">
+
+        ID
+
+      </text>
+
+
+      <!-- TITLE -->
+
+      <text
+        x="66"
+        y="48"
+        font-family="'Courier New',monospace"
+        font-size="11"
+        font-weight="900"
+        fill="#FFFFFF">
+
+        FAKE ID
+
+      </text>
+
+      <text
+        x="66"
+        y="62"
+        font-family="'Courier New',monospace"
+        font-size="11"
+        font-weight="900"
+        fill="#FFFFFF">
+
+        SCREENING
+
+      </text>
+
+      <text
+        x="66"
+        y="76"
+        font-family="'Courier New',monospace"
+        font-size="7"
+        fill="#7DA5B5">
+
+        AI Identity Verification
+
+      </text>
+
+
+      <!-- TECH -->
+
+      <text
+        x="12"
+        y="94"
+        font-family="'Courier New',monospace"
+        font-size="7"
+        fill="#7DA5B5">
+
+        OCR · CV · AI · SECURITY
+
+      </text>
+
+
+      <!-- STATUS -->
+
+      <circle
+        cx="15"
+        cy="111"
+        r="3"
+        fill="#00E5FF"
+        class="status"
+      />
+
+      <text
+        x="24"
+        y="114"
+        font-family="'Courier New',monospace"
+        font-size="7"
+        fill="#00E5FF">
+
+        IN DEVELOPMENT
+
+      </text>
+
+    </g>
+
+  </g>
+
+
+  <!-- PROJECT 02 -->
+
+  <g
+    transform="translate(230,70)"
+    filter="url(#glowPink)">
+
+    <g class="card2a">
+
+      <rect
+        width="190"
+        height="125"
+        rx="11"
+        fill="url(#card2)"
+        stroke="#FF3CAC"
+        stroke-width="1.3"
+      />
+
+      <rect
+        x="1"
+        y="1"
+        width="188"
+        height="4"
+        rx="3"
+        fill="#FF3CAC"
+      />
+
+      <text
+        x="12"
+        y="22"
+        font-family="'Courier New',monospace"
+        font-size="8"
+        font-weight="700"
+        letter-spacing="1.5"
+        fill="#FF3CAC">
+
+        MISSION 02
+
+      </text>
+
+      <text
+        x="178"
+        y="22"
+        text-anchor="end"
+        font-family="'Courier New',monospace"
+        font-size="8"
+        fill="#9B7896">
+
+        EDGE AI
+
+      </text>
+
+
+      <!-- ICON -->
+
+      <rect
+        x="12"
+        y="34"
+        width="42"
+        height="42"
+        rx="8"
+        fill="#FF3CAC"
+        opacity=".09"
+        stroke="#FF3CAC"
+        stroke-width=".7"
+      />
+
+      <circle
+        cx="33"
+        cy="55"
+        r="12"
+        fill="none"
+        stroke="#FF3CAC"
+        stroke-width="1.5"
+      />
+
+      <circle
+        cx="33"
+        cy="55"
+        r="4"
+        fill="#FF3CAC"
+      />
+
+      <path
+        d="
+          M33 39 V34
+          M33 76 V71
+          M17 55 H12
+          M54 55 H49
+        "
+        stroke="#FF3CAC"
+        stroke-width="1"
+      />
+
+
+      <!-- TITLE -->
+
+      <text
+        x="66"
+        y="48"
+        font-family="'Courier New',monospace"
+        font-size="11"
+        font-weight="900"
+        fill="#FFFFFF">
+
+        PROJECT
+
+      </text>
+
+      <text
+        x="66"
+        y="62"
+        font-family="'Courier New',monospace"
+        font-size="11"
+        font-weight="900"
+        fill="#FFFFFF">
+
+        A.U.R.A.
+
+      </text>
+
+      <text
+        x="66"
+        y="76"
+        font-family="'Courier New',monospace"
+        font-size="7"
+        fill="#A887A3">
+
+        Factory Intelligence
+
+      </text>
+
+
+      <!-- TECH -->
+
+      <text
+        x="12"
+        y="94"
+        font-family="'Courier New',monospace"
+        font-size="7"
+        fill="#A887A3">
+
+        EDGE AI · IoT · RAG
+
+      </text>
+
+
+      <!-- STATUS -->
+
+      <circle
+        cx="15"
+        cy="111"
+        r="3"
+        fill="#FF3CAC"
+        class="status"
+      />
+
+      <text
+        x="24"
+        y="114"
+        font-family="'Courier New',monospace"
+        font-size="7"
+        fill="#FF3CAC">
+
+        ACTIVE
+
+      </text>
+
+    </g>
+
+  </g>
+
+
+  <!-- PROJECT 03 -->
+
+  <g
+    transform="translate(440,70)"
+    filter="url(#glowCyan)">
+
+    <g class="card3a">
+
+      <rect
+        width="190"
+        height="125"
+        rx="11"
+        fill="url(#card3)"
+        stroke="#4DDB9A"
+        stroke-width="1.3"
+      />
+
+      <rect
+        x="1"
+        y="1"
+        width="188"
+        height="4"
+        rx="3"
+        fill="#4DDB9A"
+      />
+
+      <text
+        x="12"
+        y="22"
+        font-family="'Courier New',monospace"
+        font-size="8"
+        font-weight="700"
+        letter-spacing="1.5"
+        fill="#4DDB9A">
+
+        MISSION 03
+
+      </text>
+
+      <text
+        x="178"
+        y="22"
+        text-anchor="end"
+        font-family="'Courier New',monospace"
+        font-size="8"
+        fill="#729C8C">
+
+        EDTECH
+
+      </text>
+
+
+      <!-- ICON -->
+
+      <rect
+        x="12"
+        y="34"
+        width="42"
+        height="42"
+        rx="8"
+        fill="#4DDB9A"
+        opacity=".09"
+        stroke="#4DDB9A"
+        stroke-width=".7"
+      />
+
+      <path
+        d="
+          M19 47
+          L33 40
+          L47 47
+          L33 54
+          Z
+
+          M23 51 V61
+          M43 51 V61
+          M26 61 H40
+        "
+        fill="none"
+        stroke="#4DDB9A"
+        stroke-width="1.6"
+        stroke-linejoin="round"
+      />
+
+
+      <!-- TITLE -->
+
+      <text
+        x="66"
+        y="48"
+        font-family="'Courier New',monospace"
+        font-size="11"
+        font-weight="900"
+        fill="#FFFFFF">
+
+        ALTUSMATE
+
+      </text>
+
+      <text
+        x="66"
+        y="62"
+        font-family="'Courier New',monospace"
+        font-size="7"
+        fill="#83AA9D">
+
+        Campus EdTech
+
+      </text>
+
+      <text
+        x="66"
+        y="75"
+        font-family="'Courier New',monospace"
+        font-size="7"
+        fill="#83AA9D">
+
+        Platform
+
+      </text>
+
+
+      <!-- TECH -->
+
+      <text
+        x="12"
+        y="94"
+        font-family="'Courier New',monospace"
+        font-size="7"
+        fill="#83AA9D">
+
+        REACT · NODE · MONGODB
+
+      </text>
+
+
+      <!-- STATUS -->
+
+      <circle
+        cx="15"
+        cy="111"
+        r="3"
+        fill="#4DDB9A"
+        class="status"
+      />
+
+      <text
+        x="24"
+        y="114"
+        font-family="'Courier New',monospace"
+        font-size="7"
+        fill="#4DDB9A">
+
+        DEPLOYED
+
+      </text>
+
+    </g>
+
+  </g>
+
+
+  <!-- PROJECT 04 -->
+
+  <g
+    transform="translate(650,70)"
+    filter="url(#glowPink)">
+
+    <g class="card4a">
+
+      <rect
+        width="190"
+        height="125"
+        rx="11"
+        fill="url(#card4)"
+        stroke="#FF6B6B"
+        stroke-width="1.3"
+      />
+
+      <rect
+        x="1"
+        y="1"
+        width="188"
+        height="4"
+        rx="3"
+        fill="#FF6B6B"
+      />
+
+      <text
+        x="12"
+        y="22"
+        font-family="'Courier New',monospace"
+        font-size="8"
+        font-weight="700"
+        letter-spacing="1.5"
+        fill="#FF6B6B">
+
+        MISSION 04
+
+      </text>
+
+      <text
+        x="178"
+        y="22"
+        text-anchor="end"
+        font-family="'Courier New',monospace"
+        font-size="8"
+        fill="#A67878">
+
+        SYSTEM
+
+      </text>
+
+
+      <!-- ICON -->
+
+      <rect
+        x="12"
+        y="34"
+        width="42"
+        height="42"
+        rx="8"
+        fill="#FF6B6B"
+        opacity=".09"
+        stroke="#FF6B6B"
+        stroke-width=".7"
+      />
+
+      <rect
+        x="21"
+        y="43"
+        width="24"
+        height="24"
+        rx="3"
+        fill="none"
+        stroke="#FF6B6B"
+        stroke-width="1.5"
+      />
+
+      <path
+        d="
+          M25 49 H41
+          M25 55 H41
+          M25 61 H35
+        "
+        stroke="#FF6B6B"
+        stroke-width="1.5"
+      />
+
+
+      <!-- TITLE -->
+
+      <text
+        x="66"
+        y="48"
+        font-family="'Courier New',monospace"
+        font-size="11"
+        font-weight="900"
+        fill="#FFFFFF">
+
+        ATTENDIFIER
+
+      </text>
+
+      <text
+        x="66"
+        y="62"
+        font-family="'Courier New',monospace"
+        font-size="7"
+        fill="#B08B8B">
+
+        Smart Attendance
+
+      </text>
+
+      <text
+        x="66"
+        y="75"
+        font-family="'Courier New',monospace"
+        font-size="7"
+        fill="#B08B8B">
+
+        System
+
+      </text>
+
+
+      <!-- TECH -->
+
+      <text
+        x="12"
+        y="94"
+        font-family="'Courier New',monospace"
+        font-size="7"
+        fill="#B08B8B">
+
+        REACT · NODE · MONGODB
+
+      </text>
+
+
+      <!-- STATUS -->
+
+      <circle
+        cx="15"
+        cy="111"
+        r="3"
+        fill="#FF6B6B"
+        class="status"
+      />
+
+      <text
+        x="24"
+        y="114"
+        font-family="'Courier New',monospace"
+        font-size="7"
+        fill="#FF6B6B">
+
+        BUILDING
+
+      </text>
+
+    </g>
+
+  </g>
+
+
+  <!-- ═══════════════════════════════════════
+       BOTTOM STATUS BAR
+  ═══════════════════════════════════════ -->
+
+  <circle
+    cx="30"
+    cy="215"
+    r="2.5"
+    fill="#00E5FF"
+    class="status"
+  />
+
+  <text
+    x="40"
+    y="218"
+    font-family="'Courier New',monospace"
+    font-size="7"
+    letter-spacing="1.5"
+    fill="#71808F">
+
+    MISSION DATABASE // ONLINE
+
+  </text>
+
+  <text
+    x="830"
+    y="218"
+    text-anchor="end"
+    font-family="'Courier New',monospace"
+    font-size="7"
+    letter-spacing="1.5"
+    fill="#FF3CAC">
+
+    SELECT // BUILD // SHIP
+
+  </text>
+
+
+  <!-- ANIMATED SCAN -->
+
+  <rect
+    class="scan"
+    x="-180"
+    y="59"
+    width="110"
+    height="1"
+    fill="#00E5FF"
+  />
+
+</svg>
