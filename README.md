@@ -13,7 +13,7 @@
 
 <div align="center">
 
-<img src="./assets/projjects.svg"
+<img src="./assets/project.svg"
      width="100%"
      alt="Projject Database">
 
