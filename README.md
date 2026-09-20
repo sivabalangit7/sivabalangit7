@@ -96,4 +96,3 @@ Project	Description	Tech
 <div align="center">⚡ BUILD • LEARN • CREATE • REPEAT
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00D9FF,50:9B5DE5,100:FF2DAA&height=100&section=footer"/></div>
-```இந்த one previous code-விட compact, but screenshot மாதிரி professional look இருக்கும். YOUR_USERNAME மட்டும் மாற்றினால் போதும்.
