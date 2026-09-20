@@ -15,7 +15,7 @@
 
 <img src="./assets/projjects.svg"
      width="100%"
-     alt="Project Database">
+     alt="Projject Database">
 
 </div>
 
