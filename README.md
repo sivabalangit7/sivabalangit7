@@ -13,11 +13,11 @@
 
 <div align="center">
 
-<img src="./assets/projects.svg"
+<img src="./assets/project.svg"
      width="100%"
      alt="Project Database">
 
-</div>>
+</div>
 
 
 <div align="center">
