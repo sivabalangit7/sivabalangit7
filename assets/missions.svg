@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="220" viewBox="0 0 1200 220" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="rowScan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00E5FF" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#00E5FF" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#00E5FF" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="1200" height="220" fill="#0B1020"/>
+  <rect x="2" y="2" width="1196" height="216" fill="none" stroke="#00E5FF" stroke-width="1" opacity="0.5"/>
+  <text x="30" y="30" font-family="Consolas, 'Courier New', monospace" font-size="13" letter-spacing="4" fill="#00E5FF">CURRENT MISSIONS // 2026</text>
+
+  <g font-family="Consolas, 'Courier New', monospace">
+    <g transform="translate(30,50)">
+      <rect width="1140" height="34" fill="none" stroke="#1B2A3A" stroke-width="1"/>
+      <rect width="120" height="34" fill="url(#rowScan)"><animate attributeName="x" values="-120;1140" dur="4s" repeatCount="indefinite"/></rect>
+      <rect width="34" height="34" fill="#00E5FF"><animate attributeName="opacity" values="0.1;0.4;0.1" dur="1.6s" repeatCount="indefinite"/></rect>
+      <text x="12" y="23" font-size="14" fill="#00E5FF">01</text>
+      <text x="50" y="23" font-size="13" letter-spacing="1" fill="#EAFBFF">MASTERING WEB DEVELOPMENT</text>
+    </g>
+    <g transform="translate(30,94)">
+      <rect width="1140" height="34" fill="none" stroke="#1B2A3A" stroke-width="1"/>
+      <rect width="120" height="34" fill="url(#rowScan)"><animate attributeName="x" values="-120;1140" dur="4.5s" begin="0.5s" repeatCount="indefinite"/></rect>
+      <rect width="34" height="34" fill="#7C3AED"><animate attributeName="opacity" values="0.4;0.1;0.4" dur="1.8s" repeatCount="indefinite"/></rect>
+      <text x="12" y="23" font-size="14" fill="#7C3AED">02</text>
+      <text x="50" y="23" font-size="13" letter-spacing="1" fill="#EAFBFF">BUILDING AI-POWERED PROJECTS</text>
+    </g>
+    <g transform="translate(30,138)">
+      <rect width="1140" height="34" fill="none" stroke="#1B2A3A" stroke-width="1"/>
+      <rect width="120" height="34" fill="url(#rowScan)"><animate attributeName="x" values="-120;1140" dur="5s" begin="1s" repeatCount="indefinite"/></rect>
+      <rect width="34" height="34" fill="#00E5FF"><animate attributeName="opacity" values="0.1;0.4;0.1" dur="2s" repeatCount="indefinite"/></rect>
+      <text x="12" y="23" font-size="14" fill="#00E5FF">03</text>
+      <text x="50" y="23" font-size="13" letter-spacing="1" fill="#EAFBFF">IMPROVING SOFTWARE ENGINEERING</text>
+    </g>
+    <g transform="translate(30,182)">
+      <rect width="1140" height="34" fill="none" stroke="#1B2A3A" stroke-width="1"/>
+      <rect width="120" height="34" fill="url(#rowScan)"><animate attributeName="x" values="-120;1140" dur="4.2s" begin="1.5s" repeatCount="indefinite"/></rect>
+      <rect width="34" height="34" fill="#FF2D55"><animate attributeName="opacity" values="0.4;0.1;0.4" dur="1.5s" repeatCount="indefinite"/></rect>
+      <text x="12" y="23" font-size="14" fill="#FF2D55">04</text>
+      <text x="50" y="23" font-size="13" letter-spacing="1" fill="#EAFBFF">EXPLORING APP DEVELOPMENT</text>
+    </g>
+  </g>
+</svg>
