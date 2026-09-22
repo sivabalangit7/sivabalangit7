@@ -97,10 +97,6 @@ Short description of the project goes here — what it does and why it exists.
 
 <br/>
 
-<img src="./assets/certifications.svg" width="100%" alt="Certification Database"/>
-
-<br/>
-
 ## `SYSTEM ANALYTICS // GITHUB`
 
 <div align="center">
