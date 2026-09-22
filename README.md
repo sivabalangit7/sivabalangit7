@@ -34,39 +34,6 @@
 
 <div align="center">
 
-<img src="./assets/Analytics-frame-top.svg" width="100%" alt="Analytics Frame"/>
-
-<br/>
-
-<img src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&hide_border=true&bg_color=05070D&title_color=00E5FF&icon_color=7C3AED&text_color=EAFBFF" height="165" alt="GitHub Stats"/>
-
-<img src="https://github-readme-streak-stats.vercel.app/?user=YOUR_USERNAME&hide_border=true&background=05070D&stroke=00E5FF&ring=7C3AED&fire=FF2D55&currStreakLabel=00E5FF&sideLabels=EAFBFF&dates=6B7C8F&currStreakNum=EAFBFF&sideNums=EAFBFF" height="165" alt="GitHub Streak"/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&hide_border=true&bg_color=05070D&title_color=00E5FF&text_color=EAFBFF" height="165" alt="Top Languages"/>
-
-<br/>
-
-<img src="./assets/Analytics-frame-bottom.svg" width="100%" alt="Analytics Frame"/>
-
-</div>
-
-## `ACTIVITY LOG // CONTRIBUTION MATRIX`
-
-<div align="center">
-
-<img src="./assets/analytics-frame-top.svg" width="100%" alt="[FRAME TOP - if you see this text, the file is missing]"/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR_USERNAME&bg_color=05070D&color=00E5FF&line=7C3AED&point=FF2D55&area=true&hide_border=true" width="100%" alt="Contribution Graph"/>
-
-<img src="./assets/analytics-frame-bottom.svg" width="100%" alt="[FRAME BOTTOM - if you see this text, the file is missing]"/>
-
-</div>
-
-<br/>
-
-<img src="./assets/philosophy.svg" width="100%" alt="Development Philosophy"/>
-
-<br/>
 
 ## `COMMUNICATION CHANNEL // OPEN`
 
