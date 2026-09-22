@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="220" viewBox="0 0 1200 220" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="1200" height="220" fill="#0B1020"/>
+  <rect x="2" y="2" width="1196" height="216" fill="none" stroke="#00E5FF" stroke-width="1" opacity="0.6"/>
+
+  <g stroke="#7C3AED" stroke-width="2" fill="none" opacity="0.8">
+    <path d="M12,12 L12,36 M12,12 L36,12"/>
+    <path d="M1188,12 L1188,36 M1188,12 L1164,12"/>
+    <path d="M12,208 L12,184 M12,208 L36,208"/>
+    <path d="M1188,208 L1188,184 M1188,208 L1164,208"/>
+  </g>
+
+  <text x="30" y="34" font-family="Consolas, 'Courier New', monospace" font-size="13" letter-spacing="4" fill="#00E5FF">DEVELOPER DOSSIER // 01</text>
+  <rect x="30" y="44" width="1140" height="1" fill="#7C3AED" opacity="0.5"/>
+
+  <g font-family="Consolas, 'Courier New', monospace">
+    <g fill="#6B7C8F" font-size="10" letter-spacing="2">
+      <text x="30" y="76">IDENTITY</text>
+      <text x="30" y="126">CLASS</text>
+      <text x="30" y="176">SPECIALIZATION</text>
+      <text x="620" y="76">ENVIRONMENT</text>
+      <text x="620" y="126">VERSION CONTROL</text>
+      <text x="620" y="176">CURRENT OBJECTIVE</text>
+    </g>
+    <g fill="#EAFBFF" font-size="18" font-weight="bold">
+      <text x="30" y="98">YOUR_NAME</text>
+      <text x="30" y="148">CSBS DEVELOPER</text>
+      <text x="30" y="198">WEB • APP • AI</text>
+      <text x="620" y="98">LINUX</text>
+      <text x="620" y="148">GIT / GITHUB</text>
+      <text x="620" y="198">BUILDING REAL-WORLD SOFTWARE</text>
+    </g>
+  </g>
+
+  <rect x="14" y="0" width="3" height="220" fill="#00E5FF">
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="4s" repeatCount="indefinite"/>
+  </rect>
+</svg>
