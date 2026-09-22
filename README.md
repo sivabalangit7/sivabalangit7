@@ -38,7 +38,8 @@
 <div align="center">
 
 [![GitHub](https://img.shields.io/badge/GITHUB-sivabalangit7-05070D?style=for-the-badge&logo=github&logoColor=00E5FF&labelColor=0B1020)](https://github.com/sivabalangit7)
-![LinkedIn](https://img.shields.io/badge/LINKEDIN-CONNECT-05070D?style=for-the-badge&logo=linkedin&logoColor=00E5FF&labelColor=0B1020)(https://linkedin.com/in/Sivabalan Prabhu)]
+[![LinkedIn](https://img.shields.io/badge/LINKEDIN-CONNECT-05070D?style=for-the-badge&logo=linkedin&logoColor=00E5FF&labelColor=0B1020)](https://linkedin.com/in/SivabalanPrabhu)
+
 [![Email](https://img.shields.io/badge/EMAIL-TRANSMIT-05070D?style=for-the-badge&logo=gmail&logoColor=FF2D55&labelColor=0B1020)](mailto:)
 
 [![Instagram](https://img.shields.io/badge/INSTAGRAM-FOLLOW-05070D?style=for-the-badge&logo=instagram&logoColor=7C3AED&labelColor=0B1020)](https://instagram.com/siva_creationzs)
