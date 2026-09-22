@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="80" viewBox="0 0 1200 80" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="statusBg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0B1020"/>
+      <stop offset="100%" stop-color="#05070D"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="1200" height="80" fill="url(#statusBg)"/>
+  <rect x="2" y="2" width="1196" height="76" fill="none" stroke="#00E5FF" stroke-width="1" opacity="0.6"/>
+
+  <text x="24" y="26" font-family="Consolas, 'Courier New', monospace" font-size="11" letter-spacing="4" fill="#6B7C8F">SYSTEM STATUS</text>
+  <rect x="24" y="34" width="220" height="1" fill="#7C3AED" opacity="0.6"/>
+
+  <g font-family="Consolas, 'Courier New', monospace" font-size="12" letter-spacing="1.5" fill="#EAFBFF">
+    <g transform="translate(24,58)">
+      <circle cx="0" cy="-4" r="4" fill="#00E5FF"><animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/></circle>
+      <text x="14" y="0">ONLINE</text>
+    </g>
+    <g transform="translate(170,58)">
+      <circle cx="0" cy="-4" r="4" fill="#00E5FF"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.4s" repeatCount="indefinite"/></circle>
+      <text x="14" y="0">BUILDING</text>
+    </g>
+    <g transform="translate(340,58)">
+      <circle cx="0" cy="-4" r="4" fill="#00E5FF"><animate attributeName="opacity" values="1;0.4;1" dur="1.8s" repeatCount="indefinite"/></circle>
+      <text x="14" y="0">LEARNING</text>
+    </g>
+    <g transform="translate(500,58)">
+      <circle cx="0" cy="-4" r="4" fill="#7C3AED"><animate attributeName="opacity" values="0.4;1;0.4" dur="2.2s" repeatCount="indefinite"/></circle>
+      <text x="14" y="0">AI ENABLED</text>
+    </g>
+    <g transform="translate(680,58)">
+      <circle cx="0" cy="-4" r="4" fill="#00E5FF"><animate attributeName="opacity" values="1;0.5;1" dur="2.6s" repeatCount="indefinite"/></circle>
+      <text x="14" y="0">LINUX ACTIVE</text>
+    </g>
+    <g transform="translate(870,58)">
+      <circle cx="0" cy="-4" r="4" fill="#00E5FF"><animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite"/></circle>
+      <text x="14" y="0">GIT CONNECTED</text>
+    </g>
+    <g transform="translate(1060,58)">
+      <circle cx="0" cy="-4" r="4" fill="#FF2D55"><animate attributeName="opacity" values="1;0.3;1" dur="1.6s" repeatCount="indefinite"/></circle>
+      <text x="14" y="0">CORE STABLE</text>
+    </g>
+  </g>
+</svg>
