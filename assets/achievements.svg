@@ -21,15 +21,15 @@
       <circle r="45" fill="url(#hexGlowCyan)"><animate attributeName="opacity" values="0.3;1;0.3" dur="3s" repeatCount="indefinite"/></circle>
       <use href="#hexRing"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="14s" repeatCount="indefinite"/></use>
       <use href="#hex"/>
-      <text y="6">SIH 2025</text>
-      <text y="60" fill="#6B7C8F" font-size="9">COLLEGE-LEVEL</text>
+      <text y="6">UNESCO SICENCE EXPO</text>
+      <text y="60" fill="#6B7C8F" font-size="9">TOP 20</text>
     </g>
     <g transform="translate(300,120)">
       <circle r="45" fill="url(#hexGlowCyan)"><animate attributeName="opacity" values="1;0.3;1" dur="3.4s" repeatCount="indefinite"/></circle>
       <use href="#hexRing"><animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="16s" repeatCount="indefinite"/></use>
       <use href="#hex"/>
-      <text y="6">SIH 2026</text>
-      <text y="60" fill="#6B7C8F" font-size="9">COLLEGE-LEVEL</text>
+      <text y="6">XO CODE 26</text>
+      <text y="60" fill="#6B7C8F" font-size="9">TOP 15</text>
     </g>
     <g transform="translate(480,120)">
       <circle r="52" fill="url(#hexGlowRed)"><animate attributeName="opacity" values="0.5;1;0.5" dur="1.8s" repeatCount="indefinite"/></circle>
@@ -43,22 +43,22 @@
       <circle r="45" fill="url(#hexGlowCyan)"><animate attributeName="opacity" values="0.3;1;0.3" dur="3.2s" repeatCount="indefinite"/></circle>
       <use href="#hexRing"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="12s" repeatCount="indefinite"/></use>
       <use href="#hex"/>
-      <text y="6">NPTEL</text>
-      <text y="60" fill="#6B7C8F" font-size="9">PROGRAMMING IN C</text>
+      <text y="6">START UP PARTNER</text>
+      <text y="60" fill="#6B7C8F" font-size="9"> PONDICHERRY UNIVERSITY</text>
     </g>
     <g transform="translate(840,120)">
       <circle r="45" fill="url(#hexGlowCyan)"><animate attributeName="opacity" values="1;0.3;1" dur="2.6s" repeatCount="indefinite"/></circle>
       <use href="#hexRing"><animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="13s" repeatCount="indefinite"/></use>
       <use href="#hex"/>
-      <text y="0">IBM /</text>
+      <text y="0">AWS /</text>
       <text y="14">COURSERA</text>
-      <text y="60" fill="#6B7C8F" font-size="9">HTML CSS JS</text>
+      <text y="60" fill="#6B7C8F" font-size="9">CLOUD COMPUTING</text>
     </g>
     <g transform="translate(1020,120)">
       <circle r="45" fill="url(#hexGlowCyan)"><animate attributeName="opacity" values="0.3;1;0.3" dur="3.6s" repeatCount="indefinite"/></circle>
       <use href="#hexRing"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="11s" repeatCount="indefinite"/></use>
       <use href="#hex"/>
-      <text y="6">SKILLRACK</text>
+      <text y="6">HACKER RANK</text>
       <text y="60" fill="#6B7C8F" font-size="9">PYTHON</text>
     </g>
   </g>
