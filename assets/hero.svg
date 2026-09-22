@@ -67,8 +67,8 @@
 
   <!-- name / title block -->
   <g font-family="Consolas, 'Courier New', monospace">
-    <text x="300" y="130" font-size="42" font-weight="bold" letter-spacing="4" fill="#EAFBFF">YOUR_NAME</text>
-    <text x="300" y="160" font-size="16" letter-spacing="6" fill="#00E5FF">CSBS STUDENT // DEVELOPER</text>
+    <text x="300" y="130" font-size="42" font-weight="bold" letter-spacing="4" fill="#EAFBFF">SIVA BALAN</text>
+    <text x="300" y="160" font-size="16" letter-spacing="6" fill="#00E5FF">STUDENT// DEVELOPER</text>
 
     <!-- suit-up sequence loading bar -->
     <text x="300" y="188" font-size="10" letter-spacing="2" fill="#6B7C8F">INITIALIZING DEVELOPER PROTOCOL...</text>
