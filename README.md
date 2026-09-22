@@ -37,10 +37,9 @@
 
 <div align="center">
 
-[![GitHub](https://img.shields.io/badge/GITHUB-YOUR__USERNAME-05070D?style=for-the-badge&logo=github&logoColor=00E5FF&labelColor=0B1020)](https://github.com/YOUR_USERNAME)
+[![GitHub](https://img.shields.io/badge/GITHUB-YOUR__USERNAME-05070D?style=for-the-badge&logo=github&logoColor=00E5FF&labelColor=0B1020)](https://github.com/sivabalangit7)
 
-[![LinkedIn](https://img.shields.io/badge/LINKEDIN-CONNECT-05070D?style=for-the-badge&logo=linkedin&logoColor=00E5FF&labelColor=0B1020)](https://linkedin.com/in/YOUR_LINKEDIN)
-
+[![LinkedIn]https://www.linkedin.com/in/sivabalan-prabhu-251828363?utm_source=share_via&utm_content=profile&utm_medium=member_android
 [![Email](https://img.shields.io/badge/EMAIL-TRANSMIT-05070D?style=for-the-badge&logo=gmail&logoColor=FF2D55&labelColor=0B1020)](mailto:YOUR_EMAIL)
 
 [![Instagram](https://img.shields.io/badge/INSTAGRAM-FOLLOW-05070D?style=for-the-badge&logo=instagram&logoColor=7C3AED&labelColor=0B1020)](https://instagram.com/YOUR_INSTAGRAM)
